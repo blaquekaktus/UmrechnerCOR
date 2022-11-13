@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="82d8fb94-b102-429d-bcdd-399197b23fac" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Chain_Of_Responsibility/E2DUmrechner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Chain_Of_Responsibility/E2YUmrechner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Chain_Of_Responsibility/ISammelumrechnung.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Chain_Of_Responsibility/IUmrechnen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Chain_Of_Responsibility/WaehrungsUmrechner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Chain_Of_Responsibility/Y2EUmrechner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2HUEgtmC3m3lnjwbG1wO7fjVqG5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="Umrechner_COR" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="82d8fb94-b102-429d-bcdd-399197b23fac" name="Changes" comment="" />
+      <created>1668331376215</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668331376215</updated>
+      <workItem from="1668331377551" duration="23534000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="NONE" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Chain_Of_Responsibility/E2YUmrechner.java</url>
+          <line>24</line>
+          <log-expression expression="package org.example.Chain_Of_Responsibility;&#10;&#10;&#10;import static java.lang.Math.round;&#10;&#10;public class E2YUmrechner extends WaehrungsUmrechner{&#10;&#10;    private double betrag;&#10;    private double factor = 143.68;&#10;&#10;&#10;    public E2YUmrechner(WaehrungsUmrechner naechsteUmrechner) {&#10;        super(naechsteUmrechner);&#10;    }&#10;&#10;&#10;    @Override&#10;    public boolean zustaendig(String variante) {&#10;        if (variante.equals(&quot;EUR2YEN&quot;)){&#10;           return true;&#10;        }&#10;        else&#10;        {&#10;            return false;&#10;        }&#10;    }&#10;&#10;&#10;    public void E2Yumrechnen(String variante, double betrag) {&#10;        if (zustaendig(variante)) {&#10;            double umrechnung = factor * betrag;&#10;            System.out.println(&quot;Euro in Yen Umrechnen:&quot;);&#10;            System.out.println(&quot;€&quot; + betrag + &quot; = &quot; + &quot;¥&quot; + umrechnung);&#10;        }else if (this.naechsteUmrechner != null) {&#10;                naechsteUmrechner.umrechnen(variante, betrag);&#10;        }else{&#10;            System.out.println(&quot;Wir können dieses Umrechnung leider nicht durchführung&quot;);&#10;        }&#10;&#10;    }&#10;&#10;&#10;&#10;&#10;}&#10;" language="JAVA" />
+          <properties class="org.example.Chain_Of_Responsibility.E2YUmrechner" method="E2Yumrechnen">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
